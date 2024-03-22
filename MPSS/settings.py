@@ -79,12 +79,15 @@ WSGI_APPLICATION = 'MPSS.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
-DATABASES = {
+'''DATABASES = {
     'default': {
         'ENGINE': 'djongo',
-        'NAME': 'your-db-name',
+        'NAME': 'your_database_name',
+        'CLIENT': {
+            'host': 'your_mongodb_uri',
+        },
     }
-}
+}'''
 
 
 # Password validation
