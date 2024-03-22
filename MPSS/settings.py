@@ -40,7 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'login_signup',
-    'owner'
+    
+    #'shop_owner',
     
 ]
 

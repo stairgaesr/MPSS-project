@@ -38,3 +38,6 @@ def owner_home(request):
 
 def service_home(request): 
       return render(request,'service_home.html')
+
+def items(request): 
+      return render(request,'items.html')
